@@ -10,7 +10,6 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 
-<script src="game.js"></script>
 </head>
 
 <body>
@@ -21,8 +20,21 @@
 
     <div class="container">
         <center>
-            <h2 style ="color: bisque;">The Math Quiz Game!</h2>
+            <h2 style ="color: rgb(177, 124, 59);">The Math Quiz Game!</h2>
+            <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+            <div id="output" class="col-lg-6"> </div>
+            <br>
+            <br>
+            <label style="color: rgb(248, 11, 23);">Number 1</label>
+            <input type="text" id="number1" class="form-control" placeholder="number1">
+            <br>
+            <label style="color: rgb(248, 11, 23);">Number 2</label>
+            <input type="text" id="number2" class="form-control" placeholder="number2">
+            <br>
+            <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
         </center>
     </div>
-
+    <script src="game.js"></script>
 </body>
+</html>

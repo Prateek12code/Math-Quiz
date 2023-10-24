@@ -6,7 +6,7 @@ body
 
 	.login_div1 , .login_div2
 	{
-        align-self: centers;
+        align-self: center;
 		background: lightcoral;
 		padding: 10px;
 		float: none;
@@ -31,10 +31,26 @@ body
 }
 #output
 {
-background: white;
+background: rgba(29, 183, 194, 0.445);
 border-radius: 10px;
-border-top: 10px solid #AA4465;
+border-top: 10px solid #2b37e9;
 padding: 10px;
 float: none;
 text-align: left;
+}
+
+#number1{
+	border-style: dashed;
+	border-color: aquamarine;
+	height: 45px;
+	border-width: 5px;
+	color: rgb(212, 170, 115);
+}
+
+#number2{
+	border-style: dashed;
+	border-color: aquamarine;
+	height: 45px;
+	border-width: 5px;
+	color: rgb(212, 170, 115);
 }
